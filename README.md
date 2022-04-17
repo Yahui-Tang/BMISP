@@ -6,7 +6,7 @@ original sRGB image is used as a guidance to embed the camerastyle information. 
 python3 and pytorch 1.8. Tested on Ubuntu 16.04 and Windows 10.
 # Using the pretrained model
  - srgb2xyz: python3 srgb2xyz.py --input_img_dir (input srgb image directory) --output_dir(output unprocessing xyz image dir)
- - xyz2srgb: python3 srgb2xyz.py --srgb_img_dir (input srgb image directory) --rec_xyz_img_dir(input reconstructed xyz image dir) --rendered_xyz_img_dir(input rendered xyz image dir) --output_dir(output unprocessing xyz image dir)
+ - xyz2srgb: python3 srgb2xyz.py --srgb_img_dir (input srgb image directory) --rec_xyz_img_dir (input reconstructed xyz image dir) --rendered_xyz_img_dir (input rendered xyz image dir) --output_dir (output unprocessing xyz image dir)
 # Training on your own dataset
 Currently, the paper is under review, the training code will be released after the paper is accepted.
 
