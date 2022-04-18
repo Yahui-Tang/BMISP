@@ -1,4 +1,4 @@
-# RMISP: Bidirectional Mapping of Image Signal
+# BMISP: Bidirectional Mapping of Image Signal
 Processing Pipeline
 After being processed by the image signal processing (ISP) pipeline in digital cameras, the sRGB images are nonlinear, and thus are not suitable for the computer vision tasks which work best in a linear color space. Therefore, mapping nonlinear sRGB images back to a linear color space is a highly valuable task. To achieve an accurate mapping, this paper proposes a framework based on convolutional neural networks, which models the ISP pipeline in both reverse and forward directions. In particular, for the reverse mapping, a U-net structure is applied to extract features from a given sRGB image, and the extracted features are utilized to estimate the linear and nonlinear transformations in the ISP pipeline. For the forward mapping, the
 original sRGB image is used as a guidance to embed the camerastyle information. To incorporate the encoded prior knowledge, affine transformations are employed to modulate the features. Experiments demonstrate that the proposed framework is able to achieve the state-of-the-art performance.
